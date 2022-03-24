@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/ticket.css" rel="stylesheet" />
+    <title>Ticket Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="action_page.php">
+        <div class="headings">
+            <h1>INFRINGER  AND MOTOR VEHICLE PARTICULARS</h1>
+           
+        </div>
+        
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Names</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your names..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="initials">Initials</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="initials" name="initials" placeholder="Your initials..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="dof">Date of birth</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="dof" name="dof" >
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="idType">ID type</label>
+            </div>
+            <div class="col-75">
+              <select id="idType" name="idType">
+                <option value="Select">Select</option>
+                <option value="RSA">RSA</option>
+                <option value="Passport">Passport</option>
+                <option value="Driving Licence">Driving Licence</option>
+                <option value="Foreign">Foreign</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="gender">Gender</label>
+            </div>
+            <div class="col-75">
+              <select id="gender" name="gender">
+                <option value="Select">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="idNumber">ID number</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="idNumber" name="idNumber" maxlength="13" placeholder="ID number..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="foreignCode">Foreign code</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="foreignCode" name="foreignCode" maxlength="10" placeholder="code...">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="licenceCode">Licence code</label>
+            </div>
+            <div class="col-75">
+              <select id="licenceCode" name="licenceCode">
+                <option value="Select">Select</option>
+                <option value="A1">A1</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C1">C1</option>
+                <option value="C">C</option>
+                <option value="EB">EB</option>
+                <option value="EC1">EC1</option>
+                <option value="EC">EC</option>
+                <option value="NONE">NONE</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="learnerCode">Learner code</label>
+            </div>
+            <div class="col-75">
+              <select id="learnerCode" name="learnerCode">
+                <option value="Select">Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="PrDPcode">PrDP code</label>
+            </div>
+            <div class="col-75">
+              <select id="PrDPcode" name="PrDPcode">
+                <option value="Select">Select</option>
+                <option value="Goods">Goods</option>
+                <option value="Passngers">Passngers</option>
+                <option value="Dangarous">Dangarous</option>
+              </select>
+            </div>
+          </div>
+          <br>
+
+          <div class="pnstyle">
+            
+          <a href="contact.html" class="next">Next &raquo;</a>
+
+          </div>
+          
+        </form>
+    </div>
+</body>
+</html>
+
+  
